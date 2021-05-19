@@ -1,11 +1,9 @@
 # Errors
 
-<aside class="notice">
-This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
-</aside>
+Combyne Connect uses standard HTTP response codes to indicate success or failure of an API request. 
+In general, codes in the 2xx range indicate success, codes in the 4xx range indicate an error that resulted from the provided information (e.g., a required parameter was missing), and codes in the 5xx range indicate an error with Best Buy’s servers.
 
-The Kittn API uses the following error codes:
-
+Applies to: • Listing API • Authentication API
 
 Error Code | Meaning
 ---------- | -------
