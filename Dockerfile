@@ -24,6 +24,6 @@ RUN apt-get update \
 COPY . /srv/slate
 
 RUN chmod +x /srv/slate/slate.sh
-
+RUN ./deploy.sh --push-only
 ENTRYPOINT ["/srv/slate/slate.sh"]
 CMD ["build"]
