@@ -24,7 +24,7 @@ be used to identify your application when calling the Connect Connect API.
 Your client_secret should be kept a secret! Be sure to store your client credentials securely.
 </aside>
 
-## Request authorization code ##
+## Request authorization code ## <a name="authorization_request"></a>
 
 First step is to create the authorization request. This request sets parameters that identify your application and
 define the permissions that the user will be asked to grant to your application. It will redirect the user to Combyne

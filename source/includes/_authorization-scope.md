@@ -1,7 +1,7 @@
 # OAuth 2.0 scopes #
 
-In order to use the Combyne Connect API, you need to familiarise yourself with scopes. 
-Scopes provide Combyne users using third-party apps the confidence that only the information they choose to share will be shared, and nothing more.
+OAuth scopes let you specify exactly how your app needs to access a Combyne user's account.
+As an integration partner you need provide one or more of the below given API scopes as a part of the authentication request.
 
 ## Listing ##
   - Write access for Combyne Marketplace Listing <br>

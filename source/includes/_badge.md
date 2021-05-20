@@ -1,3 +1,3 @@
 # Badge API #
 
-The Combyne Badge API allows you to publish tags to combyne user 
+The Combyne Badge API allows you to publish badges on behalf of Combyne user 
