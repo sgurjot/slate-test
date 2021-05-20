@@ -358,8 +358,8 @@ marketplace platform.</p>
 <p>To learn more about the Combyne platform, or to discuss how your product or service could benefit from integrating with
 the Combyne platform, please visit <a href="https://combyne.ag">Combyne.ag</a></p>
 <h1 id='oauth-2-0-scopes'>OAuth 2.0 scopes</h1>
-<p>In order to use the Combyne Connect API, you need to familiarise yourself with scopes. 
-Scopes provide Combyne users using third-party apps the confidence that only the information they choose to share will be shared, and nothing more.</p>
+<p>OAuth scopes let you specify exactly how your app needs to access a Combyne user&#39;s account.
+As an integration partner you need provide one or more of the below given API scopes as a part of the authentication request.</p>
 <h2 id='listing'>Listing</h2>
 <ul>
 <li><p>Write access for Combyne Marketplace Listing <br>
@@ -374,9 +374,7 @@ Scopes provide Combyne users using third-party apps the confidence that only the
 </ul>
 <h1 id='errors'>Errors</h1>
 <p>Combyne Connect uses standard HTTP response codes to indicate success or failure of an API request. 
-In general, codes in the 2xx range indicate success, codes in the 4xx range indicate an error that resulted from the provided information (e.g., a required parameter was missing), and codes in the 5xx range indicate an error with Best Buy’s servers.</p>
-
-<p>Applies to: • Listing API • Authentication API</p>
+In general, codes in the 2xx range indicate success, codes in the 4xx range indicate an error that resulted from the provided information (e.g., a required parameter was missing), and codes in the 5xx range indicate an error with Combyne Connect&#39;s servers.</p>
 
 <table><thead>
 <tr>
@@ -499,6 +497,10 @@ Connect’s authorization server.</p>
 <li><p>The user is redirected back to your specified redirect_uri. 
 After the user accepts, or denies your request, the Combyne Connect Authorization service redirects the user back to your redirect_uri. In this example, the redirect address is: <code>https://example.com/callback</code></p></li>
 </ol>
+
+<p><img src="images/authorization_login2-c865fce2.png" alt="Login screen" />
+<img src="images/authorization_consent2-06487624.png" alt="Consent screen" />
+<img src="images/authorization_connected2-14597168.png" alt="Connected screen" /></p>
 <h2 id='exchange-authorization-code-for-access-token'>Exchange authorization code for access token</h2>
 <p>When the authorization code has been received, 
 you will need to exchange it with an access token by making a POST request to the Combyne Connect Token service</p>
@@ -696,7 +698,7 @@ Since the exchange uses your client secret key, to keep the integrity of the key
 </tr>
 </tbody></table>
 <h1 id='badge-api'>Badge API</h1>
-<p>The Combyne Badge API allows you to publish tags to combyne user </p>
+<p>The Combyne Badge API allows you to publish badges on behalf of Combyne user </p>
 
       </div>
       <div class="dark-box">
