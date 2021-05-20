@@ -24,7 +24,7 @@ be used to identify your application when calling the Connect Connect API.
 Your client_secret should be kept a secret! Be sure to store your client credentials securely.
 </aside>
 
-## Request authorization code ## <a name="authorization_request"></a>
+## Request authorization code ##
 
 First step is to create the authorization request. This request sets parameters that identify your application and
 define the permissions that the user will be asked to grant to your application. It will redirect the user to Combyne
@@ -81,7 +81,9 @@ This query performs a couple of things:
 2. The user is redirected back to your specified redirect_uri. 
    After the user accepts, or denies your request, the Combyne Connect Authorization service redirects the user back to your redirect_uri. In this example, the redirect address is: `https://example.com/callback`
 
-
+![Login screen](images/authorization_login2.png)
+![Consent screen](images/authorization_consent2.png)
+![Connected screen](images/authorization_connected2.png)
 
 ## Exchange authorization code for access token ##
 
